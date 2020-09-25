@@ -23,8 +23,6 @@ class ViewController: UIViewController {
         renderer.masked = false
 
         contentView.addSubview(renderer.canvas)
-
-        BarrageSwiftVersionNumber
     }
 
 
