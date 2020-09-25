@@ -9,20 +9,27 @@
 /* Begin PBXBuildFile section */
 		152EE5FE78120EF2B9B9959B3D32CF36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		2D14AA0EDE4EFDD6431664669EFFD00B /* Pods-BarrageSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC8EEC2679DBA64C686D9B0A907C4EA7 /* Pods-BarrageSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2E7E6A759BB3680A75ADA6BE3EEC6CCC /* BarrageSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4BB0DF492374F0F3006C2C35293A73 /* BarrageSprite.swift */; };
-		3E71119784689670D5BDA1B4172315A0 /* BarrageWalkSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055234C1F28A05F977391D9BCAB82460 /* BarrageWalkSprite.swift */; };
 		5C1DE112B26121F1A4502DE6BB502A0F /* Pods-BarrageSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E447E9A64F18093C441D912A6EC3662 /* Pods-BarrageSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E113D7351FB95DFC77AAB175FAD48CB /* BarrageRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887BE5FB7C495B8757A48B2E26BEEDB9 /* BarrageRenderer.swift */; };
-		893E41BCD18227A70C30511399E4A3FD /* BarrageDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD7B29224116F75CF1517DACDDF2F82 /* BarrageDispatcher.swift */; };
-		8B2152824DCA5BF16BCFE2FB84278FF7 /* BarrageCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF353124A09C045EB2BD986BB740557 /* BarrageCanvas.swift */; };
+		8F3B528D251DE32500428BB5 /* BarrageWalkSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B5284251DE32500428BB5 /* BarrageWalkSprite.swift */; };
+		8F3B528E251DE32500428BB5 /* BarrageViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B5285251DE32500428BB5 /* BarrageViewProtocol.swift */; };
+		8F3B528F251DE32500428BB5 /* BarrageSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B5286251DE32500428BB5 /* BarrageSprite.swift */; };
+		8F3B5290251DE32500428BB5 /* BarrageDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B5288251DE32500428BB5 /* BarrageDispatcher.swift */; };
+		8F3B5291251DE32500428BB5 /* BarrageCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B5289251DE32500428BB5 /* BarrageCanvas.swift */; };
+		8F3B5292251DE32500428BB5 /* BarrageRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B528A251DE32500428BB5 /* BarrageRenderer.swift */; };
+		8F3B5293251DE32500428BB5 /* BarrageClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B528B251DE32500428BB5 /* BarrageClock.swift */; };
+		8F3B52A9251DE43B00428BB5 /* BarrageWalkSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B5284251DE32500428BB5 /* BarrageWalkSprite.swift */; };
+		8F3B52AA251DE43B00428BB5 /* BarrageViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B5285251DE32500428BB5 /* BarrageViewProtocol.swift */; };
+		8F3B52AB251DE43B00428BB5 /* BarrageSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B5286251DE32500428BB5 /* BarrageSprite.swift */; };
+		8F3B52AC251DE44000428BB5 /* BarrageDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B5288251DE32500428BB5 /* BarrageDispatcher.swift */; };
+		8F3B52AD251DE44000428BB5 /* BarrageCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B5289251DE32500428BB5 /* BarrageCanvas.swift */; };
+		8F3B52AE251DE44000428BB5 /* BarrageRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B528A251DE32500428BB5 /* BarrageRenderer.swift */; };
+		8F3B52AF251DE44000428BB5 /* BarrageClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B528B251DE32500428BB5 /* BarrageClock.swift */; };
 		9285F6C73B5C90962FD62B2D23B56C52 /* BarrageSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2CD741F15314B438D593B41E8AD125 /* BarrageSwift-dummy.m */; };
 		99803AF4F3C35B31098FFED7E2F23C40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		AB5BB5688FDDE77E58A75C2C8C57F7EF /* BarrageClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DEEC4EF045D874EB24C37005D862A2 /* BarrageClock.swift */; };
 		B070582766C918B4909A980CD0C45AE0 /* BarrageSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 213D535E16DDE4555757A9EDA4331980 /* BarrageSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B88EAA2E5328D25F3D24B76FBD7C1AB4 /* Pods-BarrageSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EF78B2344499A2BCA440928F41B0B5 /* Pods-BarrageSwift_Example-dummy.m */; };
 		CD0811641228C77313F316E2F64DBA7D /* Pods-BarrageSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF97B24C225DFD19391A82D8408DEF59 /* Pods-BarrageSwift_Tests-dummy.m */; };
 		DE1AC4ECAFE0BDF81C00344819199E39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		E1B9CC3979E8E7430B99DB3DC85DA720 /* BarrageViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51BFFBA6D980362A639B161659921E7 /* BarrageViewProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,8 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		018EA8BB6171E813331ADE822CCE404E /* Pods_BarrageSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BarrageSwift_Tests.framework; path = "Pods-BarrageSwift_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		055234C1F28A05F977391D9BCAB82460 /* BarrageWalkSprite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BarrageWalkSprite.swift; sourceTree = "<group>"; };
+		018EA8BB6171E813331ADE822CCE404E /* Pods_BarrageSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BarrageSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		06EF78B2344499A2BCA440928F41B0B5 /* Pods-BarrageSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BarrageSwift_Example-dummy.m"; sourceTree = "<group>"; };
 		078C4702BC6730041442BF6E67076CF9 /* Pods-BarrageSwift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BarrageSwift_Example-Info.plist"; sourceTree = "<group>"; };
 		1974A787C5B2C4B1994FAE4FAD095FAE /* Pods-BarrageSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BarrageSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -53,29 +59,30 @@
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		32CE7760F6719F2B8078102AD829AE5F /* Pods-BarrageSwift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BarrageSwift_Tests-Info.plist"; sourceTree = "<group>"; };
 		41830734437DE6C3FEC87BE3F14379BC /* Pods-BarrageSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BarrageSwift_Tests.modulemap"; sourceTree = "<group>"; };
-		4EF353124A09C045EB2BD986BB740557 /* BarrageCanvas.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BarrageCanvas.swift; sourceTree = "<group>"; };
 		53820AF63060B329A67D626364F042A8 /* Pods-BarrageSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BarrageSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		58AE1911A0AA811A0F982D2F3F9778E4 /* Pods-BarrageSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BarrageSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5EBEA02B34CBDB088E876FC30C1FBEFA /* Pods_BarrageSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BarrageSwift_Example.framework; path = "Pods-BarrageSwift_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EBEA02B34CBDB088E876FC30C1FBEFA /* Pods_BarrageSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BarrageSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		693090CA8F7F087E9464BC5E911F4F8E /* Pods-BarrageSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BarrageSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		78103114DC3D54C070BB9CF1CF08CC90 /* Pods-BarrageSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BarrageSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		7AA224F44D5DEB49A818F770D00984C0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7AA224F44D5DEB49A818F770D00984C0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7D94E508ED19530B0FA56B831B10A4E4 /* Pods-BarrageSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BarrageSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7F4B67DA359F408C46A6DBB48E0121DE /* BarrageSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BarrageSwift.release.xcconfig; sourceTree = "<group>"; };
-		887BE5FB7C495B8757A48B2E26BEEDB9 /* BarrageRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BarrageRenderer.swift; sourceTree = "<group>"; };
-		912D977B83A9C3F714AFB28C2121E7CD /* BarrageSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BarrageSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		97DEEC4EF045D874EB24C37005D862A2 /* BarrageClock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BarrageClock.swift; sourceTree = "<group>"; };
+		8F3B5284251DE32500428BB5 /* BarrageWalkSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarrageWalkSprite.swift; sourceTree = "<group>"; };
+		8F3B5285251DE32500428BB5 /* BarrageViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarrageViewProtocol.swift; sourceTree = "<group>"; };
+		8F3B5286251DE32500428BB5 /* BarrageSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarrageSprite.swift; sourceTree = "<group>"; };
+		8F3B5288251DE32500428BB5 /* BarrageDispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarrageDispatcher.swift; sourceTree = "<group>"; };
+		8F3B5289251DE32500428BB5 /* BarrageCanvas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarrageCanvas.swift; sourceTree = "<group>"; };
+		8F3B528A251DE32500428BB5 /* BarrageRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarrageRenderer.swift; sourceTree = "<group>"; };
+		8F3B528B251DE32500428BB5 /* BarrageClock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarrageClock.swift; sourceTree = "<group>"; };
+		912D977B83A9C3F714AFB28C2121E7CD /* BarrageSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BarrageSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9BACF017A4AC505D2741CFE3845AEA6E /* Pods-BarrageSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BarrageSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AC8EEC2679DBA64C686D9B0A907C4EA7 /* Pods-BarrageSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BarrageSwift_Example-umbrella.h"; sourceTree = "<group>"; };
-		ACD7B29224116F75CF1517DACDDF2F82 /* BarrageDispatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BarrageDispatcher.swift; sourceTree = "<group>"; };
-		AF2485A4915AF1BDC86BFB52EFFD6F85 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AF2485A4915AF1BDC86BFB52EFFD6F85 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AF97B24C225DFD19391A82D8408DEF59 /* Pods-BarrageSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BarrageSwift_Tests-dummy.m"; sourceTree = "<group>"; };
-		BC4BB0DF492374F0F3006C2C35293A73 /* BarrageSprite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BarrageSprite.swift; sourceTree = "<group>"; };
-		C32DEB12413F0ED63ECD33B2DC09A4B7 /* BarrageSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BarrageSwift.framework; path = BarrageSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32DEB12413F0ED63ECD33B2DC09A4B7 /* BarrageSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BarrageSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C38F6DCECACBF14E22792EA3E135349D /* Pods-BarrageSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BarrageSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C765571776710D1FF1BA07137BF494E3 /* BarrageSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BarrageSwift-Info.plist"; sourceTree = "<group>"; };
-		D51BFFBA6D980362A639B161659921E7 /* BarrageViewProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BarrageViewProtocol.swift; sourceTree = "<group>"; };
 		DAFAB63DE8E47D3269720BEDE49B093D /* BarrageSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BarrageSwift.modulemap; sourceTree = "<group>"; };
 		E3B744B2B18F1256FB4F789EDA13E57D /* BarrageSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BarrageSwift-prefix.pch"; sourceTree = "<group>"; };
 		E45466CE1568E004167C88AD9B3553A7 /* BarrageSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BarrageSwift.debug.xcconfig; sourceTree = "<group>"; };
@@ -131,9 +138,8 @@
 		1F8D14DDE5DF57227A63947BD2AA559E /* BarrageSwift */ = {
 			isa = PBXGroup;
 			children = (
-				4C8829C1CBBF0F3E242B0888BBEDA732 /* Engine */,
+				8F3B5281251DE32500428BB5 /* Classes */,
 				ED4081EDAC2A647F9400D445CFC2E07A /* Pod */,
-				F03E6B0EB43295F9ACE0EBC64717FD96 /* Sprite */,
 				2DABBF6C2A69DCAB36CFF544AC900BEC /* Support Files */,
 			);
 			name = BarrageSwift;
@@ -172,18 +178,6 @@
 			path = "Example/Pods/Target Support Files/BarrageSwift";
 			sourceTree = "<group>";
 		};
-		4C8829C1CBBF0F3E242B0888BBEDA732 /* Engine */ = {
-			isa = PBXGroup;
-			children = (
-				4EF353124A09C045EB2BD986BB740557 /* BarrageCanvas.swift */,
-				97DEEC4EF045D874EB24C37005D862A2 /* BarrageClock.swift */,
-				ACD7B29224116F75CF1517DACDDF2F82 /* BarrageDispatcher.swift */,
-				887BE5FB7C495B8757A48B2E26BEEDB9 /* BarrageRenderer.swift */,
-			);
-			name = Engine;
-			path = BarrageSwift/Classes/Engine;
-			sourceTree = "<group>";
-		};
 		719B19DF4ACF30FBDCF5F5FA965931B6 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -191,6 +185,37 @@
 				1600B07577C3FDF8E917E58908CFAAE7 /* Pods-BarrageSwift_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8F3B5281251DE32500428BB5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8F3B5283251DE32500428BB5 /* Sprite */,
+				8F3B5287251DE32500428BB5 /* Engine */,
+			);
+			name = Classes;
+			path = BarrageSwift/Classes;
+			sourceTree = "<group>";
+		};
+		8F3B5283251DE32500428BB5 /* Sprite */ = {
+			isa = PBXGroup;
+			children = (
+				8F3B5284251DE32500428BB5 /* BarrageWalkSprite.swift */,
+				8F3B5285251DE32500428BB5 /* BarrageViewProtocol.swift */,
+				8F3B5286251DE32500428BB5 /* BarrageSprite.swift */,
+			);
+			path = Sprite;
+			sourceTree = "<group>";
+		};
+		8F3B5287251DE32500428BB5 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				8F3B5288251DE32500428BB5 /* BarrageDispatcher.swift */,
+				8F3B5289251DE32500428BB5 /* BarrageCanvas.swift */,
+				8F3B528A251DE32500428BB5 /* BarrageRenderer.swift */,
+				8F3B528B251DE32500428BB5 /* BarrageClock.swift */,
+			);
+			path = Engine;
 			sourceTree = "<group>";
 		};
 		8F855AA84E2702347697FA2DF0421B92 /* Products */ = {
@@ -246,17 +271,6 @@
 				AF2485A4915AF1BDC86BFB52EFFD6F85 /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		F03E6B0EB43295F9ACE0EBC64717FD96 /* Sprite */ = {
-			isa = PBXGroup;
-			children = (
-				BC4BB0DF492374F0F3006C2C35293A73 /* BarrageSprite.swift */,
-				D51BFFBA6D980362A639B161659921E7 /* BarrageViewProtocol.swift */,
-				055234C1F28A05F977391D9BCAB82460 /* BarrageWalkSprite.swift */,
-			);
-			name = Sprite;
-			path = BarrageSwift/Classes/Sprite;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -403,6 +417,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F3B52AE251DE44000428BB5 /* BarrageRenderer.swift in Sources */,
+				8F3B52AC251DE44000428BB5 /* BarrageDispatcher.swift in Sources */,
+				8F3B52AA251DE43B00428BB5 /* BarrageViewProtocol.swift in Sources */,
+				8F3B52AB251DE43B00428BB5 /* BarrageSprite.swift in Sources */,
+				8F3B52A9251DE43B00428BB5 /* BarrageWalkSprite.swift in Sources */,
+				8F3B52AF251DE44000428BB5 /* BarrageClock.swift in Sources */,
+				8F3B52AD251DE44000428BB5 /* BarrageCanvas.swift in Sources */,
 				B88EAA2E5328D25F3D24B76FBD7C1AB4 /* Pods-BarrageSwift_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,14 +432,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B2152824DCA5BF16BCFE2FB84278FF7 /* BarrageCanvas.swift in Sources */,
-				AB5BB5688FDDE77E58A75C2C8C57F7EF /* BarrageClock.swift in Sources */,
-				893E41BCD18227A70C30511399E4A3FD /* BarrageDispatcher.swift in Sources */,
-				5E113D7351FB95DFC77AAB175FAD48CB /* BarrageRenderer.swift in Sources */,
-				2E7E6A759BB3680A75ADA6BE3EEC6CCC /* BarrageSprite.swift in Sources */,
+				8F3B528F251DE32500428BB5 /* BarrageSprite.swift in Sources */,
+				8F3B528E251DE32500428BB5 /* BarrageViewProtocol.swift in Sources */,
+				8F3B5292251DE32500428BB5 /* BarrageRenderer.swift in Sources */,
+				8F3B5293251DE32500428BB5 /* BarrageClock.swift in Sources */,
+				8F3B5290251DE32500428BB5 /* BarrageDispatcher.swift in Sources */,
+				8F3B5291251DE32500428BB5 /* BarrageCanvas.swift in Sources */,
 				9285F6C73B5C90962FD62B2D23B56C52 /* BarrageSwift-dummy.m in Sources */,
-				E1B9CC3979E8E7430B99DB3DC85DA720 /* BarrageViewProtocol.swift in Sources */,
-				3E71119784689670D5BDA1B4172315A0 /* BarrageWalkSprite.swift in Sources */,
+				8F3B528D251DE32500428BB5 /* BarrageWalkSprite.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -665,8 +686,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

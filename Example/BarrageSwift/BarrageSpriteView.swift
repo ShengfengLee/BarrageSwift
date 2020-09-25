@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import BarrageSwift
 
 class BarrageSpriteView: UIView {
 
@@ -16,7 +17,7 @@ class BarrageSpriteView: UIView {
     let labelRightMargin: CGFloat = 10
 
     ///背景渐变色
-//    var gradientLayer: CAGradientLayer!
+    var gradientLayer: CAGradientLayer!
     var avatarBoarderImageView: UIImageView!
     var avatarImageView: UIImageView!
     var titleLabel: UILabel!
@@ -34,13 +35,13 @@ class BarrageSpriteView: UIView {
 
     func setup() {
         //渐变色
-//        gradientLayer = CAGradientLayer()
-//        gradientLayer.locations = [0, 1]
-//        gradientLayer.startPoint = CGPoint(x: 1, y: 0.5)
-//        gradientLayer.endPoint = CGPoint(x: 0.5, y: 0.5)
-//        gradientLayer.masksToBounds = true
-//        gradientLayer.masksToBounds = true
-//        self.layer.addSublayer(gradientLayer)
+        gradientLayer = CAGradientLayer()
+        gradientLayer.locations = [0, 1]
+        gradientLayer.startPoint = CGPoint(x: 1, y: 0.5)
+        gradientLayer.endPoint = CGPoint(x: 0.5, y: 0.5)
+        gradientLayer.masksToBounds = true
+        gradientLayer.masksToBounds = true
+        self.layer.addSublayer(gradientLayer)
 
         self.backgroundColor = .green
 
@@ -81,11 +82,11 @@ class BarrageSpriteView: UIView {
                                        width: self.bounds.size.width - height - labelLeftMargin - labelRightMargin,
                                        height: height)
 
-//        self.gradientLayer.frame = CGRect(x: x,
-//                                          y: x,
-//                                          width: self.bounds.size.width - x,
-//                                          height: contentHeight)
-//        self.gradientLayer.cornerRadius = contentHeight / 2
+        self.gradientLayer.frame = CGRect(x: x,
+                                          y: x,
+                                          width: self.bounds.size.width - x,
+                                          height: contentHeight)
+        self.gradientLayer.cornerRadius = contentHeight / 2
     }
 
     override func sizeThatFits(_ size: CGSize) -> CGSize {
@@ -109,19 +110,23 @@ extension BarrageSpriteView: BarrageViewProtocol {
     }
 
     func configure(params: [String: Any]) {
-        avatarImageView.image = UIImage.actions
+        if #available(iOS 13.0, *) {
+            avatarImageView.image = UIImage.actions
+        } else {
+            // Fallback on earlier versions
+        }
 
         let index = params["index"] as? Int
         //消息内容
         let text = "这是第\(index ?? 0)个弹幕"
         self.titleLabel.text = text
 
-//        self.gradientLayer.isHidden = false
+        self.gradientLayer.isHidden = false
         //渐变色
 
 
-//        self.gradientLayer.colors = [UIColor.green.cgColor,
-//                                     UIColor.blue.cgColor]
+        self.gradientLayer.colors = [UIColor.green.cgColor,
+                                     UIColor.blue.cgColor]
         self.avatarBoarderImageView.image = UIImage(named: "barrage_avatar_boarder_all")
 
         self.setNeedsLayout()
