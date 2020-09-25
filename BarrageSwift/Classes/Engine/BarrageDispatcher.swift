@@ -18,7 +18,7 @@ protocol BarrageDispatcherDelegate: class {
 }
 
 /// 弹幕调度器, 主要完成负载均衡的工作.
-class BarrageDispatcher {
+public class BarrageDispatcher {
 
 
     /// 当前活跃的精灵.
@@ -46,7 +46,7 @@ class BarrageDispatcher {
     }
 
 
-    public func set(delegate: BarrageDispatcherDelegate?) {
+    func set(delegate: BarrageDispatcherDelegate?) {
         self.delegate = delegate
         self.previousTime = self.currentTime
     }

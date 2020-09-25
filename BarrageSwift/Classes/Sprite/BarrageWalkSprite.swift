@@ -9,8 +9,8 @@
 import Foundation
 import CoreGraphics
 
-class BarrageWalkSprite: BarrageSprite {
-    enum Direction {
+public class BarrageWalkSprite: BarrageSprite {
+    public enum Direction {
         case rightToLeft
         case leftToRight
 //        case topToBottom
@@ -27,12 +27,12 @@ class BarrageWalkSprite: BarrageSprite {
     var minDistance: CGFloat = 44
 
     ///跑道的高度
-    var trackHeight: CGFloat = 55
+    public var trackHeight: CGFloat = 55
 
-    var direction: Direction = .rightToLeft
+    public var direction: Direction = .rightToLeft
 
     ///判断新的精灵能否显示下
-    override func canShow(inBounds rect: CGRect, with sprites: [BarrageSprite]) -> Bool {
+    override public func canShow(inBounds rect: CGRect, with sprites: [BarrageSprite]) -> Bool {
         let array = sprites.filter { $0 is BarrageWalkSprite }
         guard let walkSprites = array as? [BarrageWalkSprite] else { return false }
 
@@ -88,7 +88,7 @@ class BarrageWalkSprite: BarrageSprite {
     }
 
     ///设置精灵初试位置
-    override func origin(inBounds rect: CGRect, with sprites: [BarrageSprite]) -> CGPoint {
+    override public func origin(inBounds rect: CGRect, with sprites: [BarrageSprite]) -> CGPoint {
 
 
         let trackFrom = CGFloat(track) * trackHeight
@@ -109,7 +109,7 @@ class BarrageWalkSprite: BarrageSprite {
         return origin
     }
 
-    override func valid(time: TimeInterval, rect: CGRect) -> Bool {
+    override public func valid(time: TimeInterval, rect: CGRect) -> Bool {
         switch self.direction {
         case .rightToLeft:
 
@@ -126,7 +126,7 @@ class BarrageWalkSprite: BarrageSprite {
         return false
     }
 
-    override func rect(time: TimeInterval) -> CGRect {
+    override public func rect(time: TimeInterval) -> CGRect {
         let x = self.destination.x - self.origin.x
         let duration = time - self.timestamp
         let postion = CGPoint(x: self.origin.x + CGFloat(duration) * speed * x,

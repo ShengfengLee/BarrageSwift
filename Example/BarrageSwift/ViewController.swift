@@ -21,8 +21,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
 
         renderer.masked = false
-
-        contentView.addSubview(renderer.canvas)
+        
+        contentView.addSubview(renderer.view)
     }
 
 

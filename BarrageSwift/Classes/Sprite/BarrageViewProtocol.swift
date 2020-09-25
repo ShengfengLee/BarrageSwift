@@ -10,15 +10,15 @@ import Foundation
 import UIKit
 
 /// UIView 弹幕协议
-protocol BarrageViewProtocol: UIView {
+public protocol BarrageViewProtocol: UIView {
     func update(time: TimeInterval)
     func prepareForReuse()
     func configure(params: [String: Any])
 }
 
-typealias BarrageClickAction = ([String: Any]) -> Void
+public typealias BarrageClickAction = ([String: Any]) -> Void
 /// Action 弹幕协议
-protocol BarrageActionProtocol {
+public protocol BarrageActionProtocol {
     /// 注入点击行为
     var clickAction: BarrageClickAction { get set }
 }

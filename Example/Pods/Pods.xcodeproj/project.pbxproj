@@ -7,39 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		152EE5FE78120EF2B9B9959B3D32CF36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		2D14AA0EDE4EFDD6431664669EFFD00B /* Pods-BarrageSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC8EEC2679DBA64C686D9B0A907C4EA7 /* Pods-BarrageSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C1DE112B26121F1A4502DE6BB502A0F /* Pods-BarrageSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E447E9A64F18093C441D912A6EC3662 /* Pods-BarrageSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F3B528D251DE32500428BB5 /* BarrageWalkSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B5284251DE32500428BB5 /* BarrageWalkSprite.swift */; };
-		8F3B528E251DE32500428BB5 /* BarrageViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B5285251DE32500428BB5 /* BarrageViewProtocol.swift */; };
-		8F3B528F251DE32500428BB5 /* BarrageSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B5286251DE32500428BB5 /* BarrageSprite.swift */; };
-		8F3B5290251DE32500428BB5 /* BarrageDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B5288251DE32500428BB5 /* BarrageDispatcher.swift */; };
-		8F3B5291251DE32500428BB5 /* BarrageCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B5289251DE32500428BB5 /* BarrageCanvas.swift */; };
-		8F3B5292251DE32500428BB5 /* BarrageRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B528A251DE32500428BB5 /* BarrageRenderer.swift */; };
-		8F3B5293251DE32500428BB5 /* BarrageClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B528B251DE32500428BB5 /* BarrageClock.swift */; };
-		8F3B52A9251DE43B00428BB5 /* BarrageWalkSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B5284251DE32500428BB5 /* BarrageWalkSprite.swift */; };
-		8F3B52AA251DE43B00428BB5 /* BarrageViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B5285251DE32500428BB5 /* BarrageViewProtocol.swift */; };
-		8F3B52AB251DE43B00428BB5 /* BarrageSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B5286251DE32500428BB5 /* BarrageSprite.swift */; };
-		8F3B52AC251DE44000428BB5 /* BarrageDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B5288251DE32500428BB5 /* BarrageDispatcher.swift */; };
-		8F3B52AD251DE44000428BB5 /* BarrageCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B5289251DE32500428BB5 /* BarrageCanvas.swift */; };
-		8F3B52AE251DE44000428BB5 /* BarrageRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B528A251DE32500428BB5 /* BarrageRenderer.swift */; };
-		8F3B52AF251DE44000428BB5 /* BarrageClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B528B251DE32500428BB5 /* BarrageClock.swift */; };
+		2D14AA0EDE4EFDD6431664669EFFD00B /* Pods-BarrageSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 919B19D7643EA7F738FDAEFCC8B52B5F /* Pods-BarrageSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F3B52DE251DF0A400428BB5 /* BarrageWalkSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B52D6251DF0A400428BB5 /* BarrageWalkSprite.swift */; };
+		8F3B52DF251DF0A400428BB5 /* BarrageViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B52D7251DF0A400428BB5 /* BarrageViewProtocol.swift */; };
+		8F3B52E0251DF0A400428BB5 /* BarrageSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B52D8251DF0A400428BB5 /* BarrageSprite.swift */; };
+		8F3B52E1251DF0A400428BB5 /* BarrageDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B52DA251DF0A400428BB5 /* BarrageDispatcher.swift */; };
+		8F3B52E2251DF0A400428BB5 /* BarrageCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B52DB251DF0A400428BB5 /* BarrageCanvas.swift */; };
+		8F3B52E3251DF0A400428BB5 /* BarrageRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B52DC251DF0A400428BB5 /* BarrageRenderer.swift */; };
+		8F3B52E4251DF0A400428BB5 /* BarrageClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B52DD251DF0A400428BB5 /* BarrageClock.swift */; };
 		9285F6C73B5C90962FD62B2D23B56C52 /* BarrageSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2CD741F15314B438D593B41E8AD125 /* BarrageSwift-dummy.m */; };
 		99803AF4F3C35B31098FFED7E2F23C40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		B070582766C918B4909A980CD0C45AE0 /* BarrageSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 213D535E16DDE4555757A9EDA4331980 /* BarrageSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B88EAA2E5328D25F3D24B76FBD7C1AB4 /* Pods-BarrageSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EF78B2344499A2BCA440928F41B0B5 /* Pods-BarrageSwift_Example-dummy.m */; };
-		CD0811641228C77313F316E2F64DBA7D /* Pods-BarrageSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF97B24C225DFD19391A82D8408DEF59 /* Pods-BarrageSwift_Tests-dummy.m */; };
+		B88EAA2E5328D25F3D24B76FBD7C1AB4 /* Pods-BarrageSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C993F5873E3B38DBA7AE3CF124C8BADC /* Pods-BarrageSwift_Example-dummy.m */; };
 		DE1AC4ECAFE0BDF81C00344819199E39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8CE2C9FADBA8A03881D4A59D13E8F6CD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D1AE2BB132D1AC6442E0DD9734CB7881;
-			remoteInfo = "Pods-BarrageSwift_Example";
-		};
 		FCD9E39D77E7BBB497DC3EBD664071D2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -50,44 +33,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		018EA8BB6171E813331ADE822CCE404E /* Pods_BarrageSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BarrageSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		06EF78B2344499A2BCA440928F41B0B5 /* Pods-BarrageSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BarrageSwift_Example-dummy.m"; sourceTree = "<group>"; };
-		078C4702BC6730041442BF6E67076CF9 /* Pods-BarrageSwift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BarrageSwift_Example-Info.plist"; sourceTree = "<group>"; };
-		1974A787C5B2C4B1994FAE4FAD095FAE /* Pods-BarrageSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BarrageSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1E447E9A64F18093C441D912A6EC3662 /* Pods-BarrageSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BarrageSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
 		213D535E16DDE4555757A9EDA4331980 /* BarrageSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BarrageSwift-umbrella.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		32CE7760F6719F2B8078102AD829AE5F /* Pods-BarrageSwift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BarrageSwift_Tests-Info.plist"; sourceTree = "<group>"; };
-		41830734437DE6C3FEC87BE3F14379BC /* Pods-BarrageSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BarrageSwift_Tests.modulemap"; sourceTree = "<group>"; };
-		53820AF63060B329A67D626364F042A8 /* Pods-BarrageSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BarrageSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		58AE1911A0AA811A0F982D2F3F9778E4 /* Pods-BarrageSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BarrageSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		38A553D172AB1B09C5D108715299DACE /* Pods-BarrageSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BarrageSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
+		522DBE5AA2B580016193CB0F15746E4A /* Pods-BarrageSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BarrageSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5EBEA02B34CBDB088E876FC30C1FBEFA /* Pods_BarrageSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BarrageSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		693090CA8F7F087E9464BC5E911F4F8E /* Pods-BarrageSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BarrageSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		78103114DC3D54C070BB9CF1CF08CC90 /* Pods-BarrageSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BarrageSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		7AA224F44D5DEB49A818F770D00984C0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		7D94E508ED19530B0FA56B831B10A4E4 /* Pods-BarrageSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BarrageSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7F4B67DA359F408C46A6DBB48E0121DE /* BarrageSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BarrageSwift.release.xcconfig; sourceTree = "<group>"; };
-		8F3B5284251DE32500428BB5 /* BarrageWalkSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarrageWalkSprite.swift; sourceTree = "<group>"; };
-		8F3B5285251DE32500428BB5 /* BarrageViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarrageViewProtocol.swift; sourceTree = "<group>"; };
-		8F3B5286251DE32500428BB5 /* BarrageSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarrageSprite.swift; sourceTree = "<group>"; };
-		8F3B5288251DE32500428BB5 /* BarrageDispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarrageDispatcher.swift; sourceTree = "<group>"; };
-		8F3B5289251DE32500428BB5 /* BarrageCanvas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarrageCanvas.swift; sourceTree = "<group>"; };
-		8F3B528A251DE32500428BB5 /* BarrageRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarrageRenderer.swift; sourceTree = "<group>"; };
-		8F3B528B251DE32500428BB5 /* BarrageClock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarrageClock.swift; sourceTree = "<group>"; };
+		7F5B325C1B3C71088DB3841F746AD8E7 /* Pods-BarrageSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BarrageSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8060913FFA3F9CDB9168194E31D82D66 /* Pods-BarrageSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BarrageSwift_Example.modulemap"; sourceTree = "<group>"; };
+		8F3B52D6251DF0A400428BB5 /* BarrageWalkSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarrageWalkSprite.swift; sourceTree = "<group>"; };
+		8F3B52D7251DF0A400428BB5 /* BarrageViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarrageViewProtocol.swift; sourceTree = "<group>"; };
+		8F3B52D8251DF0A400428BB5 /* BarrageSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarrageSprite.swift; sourceTree = "<group>"; };
+		8F3B52DA251DF0A400428BB5 /* BarrageDispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarrageDispatcher.swift; sourceTree = "<group>"; };
+		8F3B52DB251DF0A400428BB5 /* BarrageCanvas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarrageCanvas.swift; sourceTree = "<group>"; };
+		8F3B52DC251DF0A400428BB5 /* BarrageRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarrageRenderer.swift; sourceTree = "<group>"; };
+		8F3B52DD251DF0A400428BB5 /* BarrageClock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarrageClock.swift; sourceTree = "<group>"; };
+		90F8FE1603C1D1A660347D8FC2D4A220 /* Pods-BarrageSwift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BarrageSwift_Example-Info.plist"; sourceTree = "<group>"; };
 		912D977B83A9C3F714AFB28C2121E7CD /* BarrageSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BarrageSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9BACF017A4AC505D2741CFE3845AEA6E /* Pods-BarrageSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BarrageSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
+		919B19D7643EA7F738FDAEFCC8B52B5F /* Pods-BarrageSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BarrageSwift_Example-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AC8EEC2679DBA64C686D9B0A907C4EA7 /* Pods-BarrageSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BarrageSwift_Example-umbrella.h"; sourceTree = "<group>"; };
 		AF2485A4915AF1BDC86BFB52EFFD6F85 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		AF97B24C225DFD19391A82D8408DEF59 /* Pods-BarrageSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BarrageSwift_Tests-dummy.m"; sourceTree = "<group>"; };
 		C32DEB12413F0ED63ECD33B2DC09A4B7 /* BarrageSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BarrageSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C38F6DCECACBF14E22792EA3E135349D /* Pods-BarrageSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BarrageSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C765571776710D1FF1BA07137BF494E3 /* BarrageSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BarrageSwift-Info.plist"; sourceTree = "<group>"; };
+		C993F5873E3B38DBA7AE3CF124C8BADC /* Pods-BarrageSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BarrageSwift_Example-dummy.m"; sourceTree = "<group>"; };
 		DAFAB63DE8E47D3269720BEDE49B093D /* BarrageSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BarrageSwift.modulemap; sourceTree = "<group>"; };
 		E3B744B2B18F1256FB4F789EDA13E57D /* BarrageSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BarrageSwift-prefix.pch"; sourceTree = "<group>"; };
 		E45466CE1568E004167C88AD9B3553A7 /* BarrageSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BarrageSwift.debug.xcconfig; sourceTree = "<group>"; };
-		EDC798EEBE94B7B57659F81B1AC7E42F /* Pods-BarrageSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BarrageSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F22C8DD1562C73B33B33D26C6B277882 /* Pods-BarrageSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BarrageSwift_Example.modulemap"; sourceTree = "<group>"; };
+		F156BCE85727C7B2AD089A05559442AD /* Pods-BarrageSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BarrageSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F165B274691A767D123BB9E97C219117 /* Pods-BarrageSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BarrageSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FC2CD741F15314B438D593B41E8AD125 /* BarrageSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BarrageSwift-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,59 +82,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A190BB3C446598E3E61FF2A659304657 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				152EE5FE78120EF2B9B9959B3D32CF36 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1600B07577C3FDF8E917E58908CFAAE7 /* Pods-BarrageSwift_Tests */ = {
+		072CECF27CE45BFE030178241C360E82 /* Pods-BarrageSwift_Example */ = {
 			isa = PBXGroup;
 			children = (
-				41830734437DE6C3FEC87BE3F14379BC /* Pods-BarrageSwift_Tests.modulemap */,
-				693090CA8F7F087E9464BC5E911F4F8E /* Pods-BarrageSwift_Tests-acknowledgements.markdown */,
-				53820AF63060B329A67D626364F042A8 /* Pods-BarrageSwift_Tests-acknowledgements.plist */,
-				AF97B24C225DFD19391A82D8408DEF59 /* Pods-BarrageSwift_Tests-dummy.m */,
-				32CE7760F6719F2B8078102AD829AE5F /* Pods-BarrageSwift_Tests-Info.plist */,
-				1E447E9A64F18093C441D912A6EC3662 /* Pods-BarrageSwift_Tests-umbrella.h */,
-				C38F6DCECACBF14E22792EA3E135349D /* Pods-BarrageSwift_Tests.debug.xcconfig */,
-				EDC798EEBE94B7B57659F81B1AC7E42F /* Pods-BarrageSwift_Tests.release.xcconfig */,
+				8060913FFA3F9CDB9168194E31D82D66 /* Pods-BarrageSwift_Example.modulemap */,
+				F165B274691A767D123BB9E97C219117 /* Pods-BarrageSwift_Example-acknowledgements.markdown */,
+				F156BCE85727C7B2AD089A05559442AD /* Pods-BarrageSwift_Example-acknowledgements.plist */,
+				C993F5873E3B38DBA7AE3CF124C8BADC /* Pods-BarrageSwift_Example-dummy.m */,
+				7F5B325C1B3C71088DB3841F746AD8E7 /* Pods-BarrageSwift_Example-frameworks.sh */,
+				90F8FE1603C1D1A660347D8FC2D4A220 /* Pods-BarrageSwift_Example-Info.plist */,
+				919B19D7643EA7F738FDAEFCC8B52B5F /* Pods-BarrageSwift_Example-umbrella.h */,
+				522DBE5AA2B580016193CB0F15746E4A /* Pods-BarrageSwift_Example.debug.xcconfig */,
+				38A553D172AB1B09C5D108715299DACE /* Pods-BarrageSwift_Example.release.xcconfig */,
 			);
-			name = "Pods-BarrageSwift_Tests";
-			path = "Target Support Files/Pods-BarrageSwift_Tests";
+			name = "Pods-BarrageSwift_Example";
+			path = "Target Support Files/Pods-BarrageSwift_Example";
 			sourceTree = "<group>";
 		};
 		1F8D14DDE5DF57227A63947BD2AA559E /* BarrageSwift */ = {
 			isa = PBXGroup;
 			children = (
-				8F3B5281251DE32500428BB5 /* Classes */,
+				8F3B52D4251DF0A400428BB5 /* Classes */,
 				ED4081EDAC2A647F9400D445CFC2E07A /* Pod */,
 				2DABBF6C2A69DCAB36CFF544AC900BEC /* Support Files */,
 			);
 			name = BarrageSwift;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		2CB5392A84DE0BB71481240C31D08D74 /* Pods-BarrageSwift_Example */ = {
-			isa = PBXGroup;
-			children = (
-				F22C8DD1562C73B33B33D26C6B277882 /* Pods-BarrageSwift_Example.modulemap */,
-				58AE1911A0AA811A0F982D2F3F9778E4 /* Pods-BarrageSwift_Example-acknowledgements.markdown */,
-				78103114DC3D54C070BB9CF1CF08CC90 /* Pods-BarrageSwift_Example-acknowledgements.plist */,
-				06EF78B2344499A2BCA440928F41B0B5 /* Pods-BarrageSwift_Example-dummy.m */,
-				9BACF017A4AC505D2741CFE3845AEA6E /* Pods-BarrageSwift_Example-frameworks.sh */,
-				078C4702BC6730041442BF6E67076CF9 /* Pods-BarrageSwift_Example-Info.plist */,
-				AC8EEC2679DBA64C686D9B0A907C4EA7 /* Pods-BarrageSwift_Example-umbrella.h */,
-				7D94E508ED19530B0FA56B831B10A4E4 /* Pods-BarrageSwift_Example.debug.xcconfig */,
-				1974A787C5B2C4B1994FAE4FAD095FAE /* Pods-BarrageSwift_Example.release.xcconfig */,
-			);
-			name = "Pods-BarrageSwift_Example";
-			path = "Target Support Files/Pods-BarrageSwift_Example";
 			sourceTree = "<group>";
 		};
 		2DABBF6C2A69DCAB36CFF544AC900BEC /* Support Files */ = {
@@ -178,54 +128,35 @@
 			path = "Example/Pods/Target Support Files/BarrageSwift";
 			sourceTree = "<group>";
 		};
-		719B19DF4ACF30FBDCF5F5FA965931B6 /* Targets Support Files */ = {
+		8F3B52D4251DF0A400428BB5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				2CB5392A84DE0BB71481240C31D08D74 /* Pods-BarrageSwift_Example */,
-				1600B07577C3FDF8E917E58908CFAAE7 /* Pods-BarrageSwift_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		8F3B5281251DE32500428BB5 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				8F3B5283251DE32500428BB5 /* Sprite */,
-				8F3B5287251DE32500428BB5 /* Engine */,
+				8F3B52D5251DF0A400428BB5 /* Sprite */,
+				8F3B52D9251DF0A400428BB5 /* Engine */,
 			);
 			name = Classes;
 			path = BarrageSwift/Classes;
 			sourceTree = "<group>";
 		};
-		8F3B5283251DE32500428BB5 /* Sprite */ = {
+		8F3B52D5251DF0A400428BB5 /* Sprite */ = {
 			isa = PBXGroup;
 			children = (
-				8F3B5284251DE32500428BB5 /* BarrageWalkSprite.swift */,
-				8F3B5285251DE32500428BB5 /* BarrageViewProtocol.swift */,
-				8F3B5286251DE32500428BB5 /* BarrageSprite.swift */,
+				8F3B52D6251DF0A400428BB5 /* BarrageWalkSprite.swift */,
+				8F3B52D7251DF0A400428BB5 /* BarrageViewProtocol.swift */,
+				8F3B52D8251DF0A400428BB5 /* BarrageSprite.swift */,
 			);
 			path = Sprite;
 			sourceTree = "<group>";
 		};
-		8F3B5287251DE32500428BB5 /* Engine */ = {
+		8F3B52D9251DF0A400428BB5 /* Engine */ = {
 			isa = PBXGroup;
 			children = (
-				8F3B5288251DE32500428BB5 /* BarrageDispatcher.swift */,
-				8F3B5289251DE32500428BB5 /* BarrageCanvas.swift */,
-				8F3B528A251DE32500428BB5 /* BarrageRenderer.swift */,
-				8F3B528B251DE32500428BB5 /* BarrageClock.swift */,
+				8F3B52DA251DF0A400428BB5 /* BarrageDispatcher.swift */,
+				8F3B52DB251DF0A400428BB5 /* BarrageCanvas.swift */,
+				8F3B52DC251DF0A400428BB5 /* BarrageRenderer.swift */,
+				8F3B52DD251DF0A400428BB5 /* BarrageClock.swift */,
 			);
 			path = Engine;
-			sourceTree = "<group>";
-		};
-		8F855AA84E2702347697FA2DF0421B92 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C32DEB12413F0ED63ECD33B2DC09A4B7 /* BarrageSwift.framework */,
-				5EBEA02B34CBDB088E876FC30C1FBEFA /* Pods_BarrageSwift_Example.framework */,
-				018EA8BB6171E813331ADE822CCE404E /* Pods_BarrageSwift_Tests.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -234,6 +165,14 @@
 				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		C0A61E73962E153EF254666FE5C8081A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				072CECF27CE45BFE030178241C360E82 /* Pods-BarrageSwift_Example */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		C894F608BB920287F26C394348D5A0D9 /* Development Pods */ = {
@@ -250,8 +189,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				C894F608BB920287F26C394348D5A0D9 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				8F855AA84E2702347697FA2DF0421B92 /* Products */,
-				719B19DF4ACF30FBDCF5F5FA965931B6 /* Targets Support Files */,
+				E6486A45958865B75E88CD5065165470 /* Products */,
+				C0A61E73962E153EF254666FE5C8081A /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -261,6 +200,15 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6486A45958865B75E88CD5065165470 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C32DEB12413F0ED63ECD33B2DC09A4B7 /* BarrageSwift.framework */,
+				5EBEA02B34CBDB088E876FC30C1FBEFA /* Pods_BarrageSwift_Example.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		ED4081EDAC2A647F9400D445CFC2E07A /* Pod */ = {
@@ -276,14 +224,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		156D8BDD1EFC2821000F00D0300CF871 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5C1DE112B26121F1A4502DE6BB502A0F /* Pods-BarrageSwift_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5358AD2473B9CEABB200C2041A905709 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -340,25 +280,6 @@
 			productReference = 5EBEA02B34CBDB088E876FC30C1FBEFA /* Pods_BarrageSwift_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F8E2E8188DF7BBECCC80D9248269FE14 /* Pods-BarrageSwift_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 265D23B8A138810C3B2BF9D7614A1F33 /* Build configuration list for PBXNativeTarget "Pods-BarrageSwift_Tests" */;
-			buildPhases = (
-				156D8BDD1EFC2821000F00D0300CF871 /* Headers */,
-				F5AAF9F6FE22FE50452415382408F345 /* Sources */,
-				A190BB3C446598E3E61FF2A659304657 /* Frameworks */,
-				1B26F9EC2DF0CBE8B0140A60868B3EE3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EFFCDCF43942AA440E204A770FE5D973 /* PBXTargetDependency */,
-			);
-			name = "Pods-BarrageSwift_Tests";
-			productName = "Pods-BarrageSwift_Tests";
-			productReference = 018EA8BB6171E813331ADE822CCE404E /* Pods_BarrageSwift_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -377,25 +298,17 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 8F855AA84E2702347697FA2DF0421B92 /* Products */;
+			productRefGroup = E6486A45958865B75E88CD5065165470 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				3F78C421593D313580425230C60C7D50 /* BarrageSwift */,
 				D1AE2BB132D1AC6442E0DD9734CB7881 /* Pods-BarrageSwift_Example */,
-				F8E2E8188DF7BBECCC80D9248269FE14 /* Pods-BarrageSwift_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1B26F9EC2DF0CBE8B0140A60868B3EE3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		28A6898A98342B047E936279F00AF1B9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -417,13 +330,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F3B52AE251DE44000428BB5 /* BarrageRenderer.swift in Sources */,
-				8F3B52AC251DE44000428BB5 /* BarrageDispatcher.swift in Sources */,
-				8F3B52AA251DE43B00428BB5 /* BarrageViewProtocol.swift in Sources */,
-				8F3B52AB251DE43B00428BB5 /* BarrageSprite.swift in Sources */,
-				8F3B52A9251DE43B00428BB5 /* BarrageWalkSprite.swift in Sources */,
-				8F3B52AF251DE44000428BB5 /* BarrageClock.swift in Sources */,
-				8F3B52AD251DE44000428BB5 /* BarrageCanvas.swift in Sources */,
 				B88EAA2E5328D25F3D24B76FBD7C1AB4 /* Pods-BarrageSwift_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,22 +338,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F3B528F251DE32500428BB5 /* BarrageSprite.swift in Sources */,
-				8F3B528E251DE32500428BB5 /* BarrageViewProtocol.swift in Sources */,
-				8F3B5292251DE32500428BB5 /* BarrageRenderer.swift in Sources */,
-				8F3B5293251DE32500428BB5 /* BarrageClock.swift in Sources */,
-				8F3B5290251DE32500428BB5 /* BarrageDispatcher.swift in Sources */,
-				8F3B5291251DE32500428BB5 /* BarrageCanvas.swift in Sources */,
+				8F3B52E4251DF0A400428BB5 /* BarrageClock.swift in Sources */,
+				8F3B52DF251DF0A400428BB5 /* BarrageViewProtocol.swift in Sources */,
+				8F3B52DE251DF0A400428BB5 /* BarrageWalkSprite.swift in Sources */,
+				8F3B52E3251DF0A400428BB5 /* BarrageRenderer.swift in Sources */,
+				8F3B52E0251DF0A400428BB5 /* BarrageSprite.swift in Sources */,
 				9285F6C73B5C90962FD62B2D23B56C52 /* BarrageSwift-dummy.m in Sources */,
-				8F3B528D251DE32500428BB5 /* BarrageWalkSprite.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F5AAF9F6FE22FE50452415382408F345 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CD0811641228C77313F316E2F64DBA7D /* Pods-BarrageSwift_Tests-dummy.m in Sources */,
+				8F3B52E1251DF0A400428BB5 /* BarrageDispatcher.swift in Sources */,
+				8F3B52E2251DF0A400428BB5 /* BarrageCanvas.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,18 +358,44 @@
 			target = 3F78C421593D313580425230C60C7D50 /* BarrageSwift */;
 			targetProxy = FCD9E39D77E7BBB497DC3EBD664071D2 /* PBXContainerItemProxy */;
 		};
-		EFFCDCF43942AA440E204A770FE5D973 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-BarrageSwift_Example";
-			target = D1AE2BB132D1AC6442E0DD9734CB7881 /* Pods-BarrageSwift_Example */;
-			targetProxy = 8CE2C9FADBA8A03881D4A59D13E8F6CD /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		24B80900DC7E77E732A65B9B10C0F82B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F4B67DA359F408C46A6DBB48E0121DE /* BarrageSwift.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BarrageSwift/BarrageSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BarrageSwift/BarrageSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BarrageSwift/BarrageSwift.modulemap";
+				PRODUCT_MODULE_NAME = BarrageSwift;
+				PRODUCT_NAME = BarrageSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		3D14791D0525679D83A3AF92766DCD01 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1974A787C5B2C4B1994FAE4FAD095FAE /* Pods-BarrageSwift_Example.release.xcconfig */;
+			baseConfigurationReference = 38A553D172AB1B09C5D108715299DACE /* Pods-BarrageSwift_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -505,7 +429,7 @@
 		};
 		427FA124CE59C7173CDBFF915A61F11D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D94E508ED19530B0FA56B831B10A4E4 /* Pods-BarrageSwift_Example.debug.xcconfig */;
+			baseConfigurationReference = 522DBE5AA2B580016193CB0F15746E4A /* Pods-BarrageSwift_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -536,73 +460,7 @@
 			};
 			name = Debug;
 		};
-		4D378118CC8A38BBF64CE944E92CD7D8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F4B67DA359F408C46A6DBB48E0121DE /* BarrageSwift.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BarrageSwift/BarrageSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BarrageSwift/BarrageSwift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BarrageSwift/BarrageSwift.modulemap";
-				PRODUCT_MODULE_NAME = BarrageSwift;
-				PRODUCT_NAME = BarrageSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4E14FE9CB9C9C8BC906AA014A6035527 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EDC798EEBE94B7B57659F81B1AC7E42F /* Pods-BarrageSwift_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BarrageSwift_Tests/Pods-BarrageSwift_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BarrageSwift_Tests/Pods-BarrageSwift_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		95C574B939B40723424A8F410AA31A1C /* Debug */ = {
+		713F0EFF98D2B03CA70CC232556CDA1F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E45466CE1568E004167C88AD9B3553A7 /* BarrageSwift.debug.xcconfig */;
 			buildSettings = {
@@ -618,7 +476,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/BarrageSwift/BarrageSwift-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/BarrageSwift/BarrageSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/BarrageSwift/BarrageSwift.modulemap";
 				PRODUCT_MODULE_NAME = BarrageSwift;
@@ -689,6 +547,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT} /**";
 			};
 			name = Release;
 		};
@@ -753,54 +612,13 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		E6E4BCA20E4454A65AC2B3CF4DBCE3AC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C38F6DCECACBF14E22792EA3E135349D /* Pods-BarrageSwift_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BarrageSwift_Tests/Pods-BarrageSwift_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BarrageSwift_Tests/Pods-BarrageSwift_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT} /**";
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		265D23B8A138810C3B2BF9D7614A1F33 /* Build configuration list for PBXNativeTarget "Pods-BarrageSwift_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E6E4BCA20E4454A65AC2B3CF4DBCE3AC /* Debug */,
-				4E14FE9CB9C9C8BC906AA014A6035527 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -813,8 +631,8 @@
 		86E79CC8EF5303E58F9AED12C3C4FAB0 /* Build configuration list for PBXNativeTarget "BarrageSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				95C574B939B40723424A8F410AA31A1C /* Debug */,
-				4D378118CC8A38BBF64CE944E92CD7D8 /* Release */,
+				713F0EFF98D2B03CA70CC232556CDA1F /* Debug */,
+				24B80900DC7E77E732A65B9B10C0F82B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

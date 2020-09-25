@@ -1,6 +1,6 @@
 {
   "name": "BarrageSwift",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of BarrageSwift.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/ShengfengLee/BarrageSwift",
@@ -13,10 +13,12 @@
   },
   "source": {
     "git": "https://github.com/ShengfengLee/BarrageSwift.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "BarrageSwift/Classes/**/*"
+  "source_files": "BarrageSwift/Classes/**/*",
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
 }

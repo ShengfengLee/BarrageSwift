@@ -10,7 +10,7 @@ import Foundation
 import CoreGraphics
 import QuartzCore
 
-class BarrageClock {
+public class BarrageClock {
 
     typealias ClockBlock = (TimeInterval) -> Void
     /// 通过回调block初始化时钟,block中返回逻辑时间,其值会受到speed的影响.

@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import CoreGraphics
 
-class BarrageRenderer: NSObject {
+public class BarrageRenderer: NSObject {
 
 
     var time: TimeInterval = 0
@@ -21,6 +21,10 @@ class BarrageRenderer: NSObject {
     private(set) var pausedTime: Date?
     private var pausedDuration: TimeInterval = 0
 
+    public var view: BarrageCanvas {
+        return self.canvas
+    }
+
     private lazy var clock: BarrageClock = {
          let clock = BarrageClock(block: { [weak self] (time) in
              self?.time = time
@@ -29,7 +33,7 @@ class BarrageRenderer: NSObject {
          return clock
      }()
 
-    override init() {
+    public override init() {
         self.canvas = BarrageCanvas()
     }
 
@@ -93,7 +97,7 @@ class BarrageRenderer: NSObject {
 
 
     ///获取当前暂停时长
-    func getPausedDuration() -> TimeInterval {
+    public func getPausedDuration() -> TimeInterval {
         if let time = pausedTime {
             return Date().timeIntervalSince(time) + pausedDuration
         }
@@ -101,14 +105,14 @@ class BarrageRenderer: NSObject {
     }
 
     /// 获取当前时间
-    var currentTime: TimeInterval {
+    public var currentTime: TimeInterval {
         guard let start = startTime else { return 0}
         let currentTime = Date().timeIntervalSince(start) - pausedDuration
         return currentTime
     }
 
 
-    var canvasMargin: UIEdgeInsets {
+    public var canvasMargin: UIEdgeInsets {
         set {
             canvas.margin = newValue
         }
@@ -116,7 +120,7 @@ class BarrageRenderer: NSObject {
             return canvas.margin
         }
     }
-    var masked: Bool {
+    public var masked: Bool {
         set {
             canvas.masked = newValue
         }
@@ -124,7 +128,7 @@ class BarrageRenderer: NSObject {
             return canvas.masked
         }
     }
-    var speed: CGFloat {
+    public var speed: CGFloat {
         set {
             clock.set(speed: newValue)
         }

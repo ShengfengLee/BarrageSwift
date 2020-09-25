@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BarrageSwift'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of BarrageSwift.'
 
 # This description is used to generate tags and improve search results.
@@ -31,6 +31,8 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'BarrageSwift/Classes/**/*'
+
+  s.swift_versions = "5.0"
   
   # s.resource_bundles = {
   #   'BarrageSwift' => ['BarrageSwift/Assets/*.png']

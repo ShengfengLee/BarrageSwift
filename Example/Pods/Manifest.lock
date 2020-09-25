@@ -1,5 +1,5 @@
 PODS:
-  - BarrageSwift (0.1.0)
+  - BarrageSwift (0.1.1)
 
 DEPENDENCIES:
   - BarrageSwift (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BarrageSwift: ea4fdc20cc547a6c32826f8eea06f37fc4c46c22
+  BarrageSwift: d7c0ed55d5901da0ef365bf82d616331cba7f7da
 
-PODFILE CHECKSUM: 6ef9325b41cb7f8441732588eeea9a26bdd2b64b
+PODFILE CHECKSUM: 3eb5dc5a2da9fe3d185ffdd9d5c8f456511ad55f
 
 COCOAPODS: 1.9.1

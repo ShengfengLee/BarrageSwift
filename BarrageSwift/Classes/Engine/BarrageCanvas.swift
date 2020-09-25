@@ -10,7 +10,7 @@
 import Foundation
 import UIKit
 
-class BarrageCanvas: UIView {
+public class BarrageCanvas: UIView {
     /// canvas是否拦截事件
     var masked: Bool = true
 
@@ -38,7 +38,7 @@ class BarrageCanvas: UIView {
         self.clipsToBounds = true
     }
 
-    override func layoutSubviews() {
+    override public func layoutSubviews() {
         super.layoutSubviews()
 
         if let superView = self.superview {
@@ -49,13 +49,13 @@ class BarrageCanvas: UIView {
         }
     }
 
-    override func didMoveToSuperview() {
+    override public func didMoveToSuperview() {
         super.didMoveToSuperview()
         setNeedsLayout()
         layoutIfNeeded()
     }
 
-    override func hitTest(_ point: CGPoint, with event: UIEvent?) -> UIView? {
+    override public func hitTest(_ point: CGPoint, with event: UIEvent?) -> UIView? {
         if masked {
             return super.hitTest(point, with: event)
         }

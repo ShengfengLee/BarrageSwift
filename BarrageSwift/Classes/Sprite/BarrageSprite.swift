@@ -10,7 +10,7 @@ import Foundation
 import CoreGraphics
 import  UIKit
 
-class BarrageSprite {
+public class BarrageSprite {
 
     /// 延时, 这个是相对于rendered的绝对时间/秒
     /// 如果delay<0, 当然不会提前显示 ^ - ^
@@ -38,7 +38,7 @@ class BarrageSprite {
 
     var createSpriteViewHandle: () -> BarrageViewProtocol
 
-    init(createSpriteViewHandle: @escaping () -> BarrageViewProtocol) {
+    public init(createSpriteViewHandle: @escaping () -> BarrageViewProtocol) {
         self.createSpriteViewHandle = createSpriteViewHandle
         delay = 0
         birth = Date()
@@ -93,7 +93,7 @@ class BarrageSprite {
         self.view.frame = CGRect(origin: origin, size: self.size)
     }
 
-    func deactive() {
+    public func deactive() {
         self.restoreViewState()
         self.invalid = false
 
@@ -130,7 +130,7 @@ class BarrageSprite {
 
 
     ///判断新的精灵能否显示下.需要子类去override
-    func canShow(inBounds rect: CGRect, with sprites: [BarrageSprite]) -> Bool {
+    public func canShow(inBounds rect: CGRect, with sprites: [BarrageSprite]) -> Bool {
         return true
     }
 
@@ -139,10 +139,10 @@ class BarrageSprite {
         return CGPoint.zero
     }
 
-    var position: CGPoint {
+    public var position: CGPoint {
         return self.view.frame.origin
     }
-    var size: CGSize {
+    public var size: CGSize {
         return self.view.frame.size
     }
 }
