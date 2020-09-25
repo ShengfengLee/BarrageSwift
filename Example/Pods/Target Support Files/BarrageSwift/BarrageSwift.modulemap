@@ -1,0 +1,6 @@
+framework module BarrageSwift {
+  umbrella header "BarrageSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

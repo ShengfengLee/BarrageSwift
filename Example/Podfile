@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BarrageSwift_Example' do
+  pod 'BarrageSwift', :path => '../'
+
+  target 'BarrageSwift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

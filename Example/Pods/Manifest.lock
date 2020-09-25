@@ -1,0 +1,16 @@
+PODS:
+  - BarrageSwift (0.1.0)
+
+DEPENDENCIES:
+  - BarrageSwift (from `../`)
+
+EXTERNAL SOURCES:
+  BarrageSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BarrageSwift: ea4fdc20cc547a6c32826f8eea06f37fc4c46c22
+
+PODFILE CHECKSUM: 6ef9325b41cb7f8441732588eeea9a26bdd2b64b
+
+COCOAPODS: 1.9.1
