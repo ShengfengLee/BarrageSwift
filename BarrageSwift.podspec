@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'BarrageSwift'
   s.version          = '0.1.2'
-  s.summary          = 'A short description of BarrageSwift.'
+  s.summary          = '参考unash/BarrageRenderer项目，简化的一个swift版本弹幕库'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
