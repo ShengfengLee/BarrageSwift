@@ -22,7 +22,7 @@ pod 'BarrageSwift'
 
 ## Author
 
-小李霸王, 389933523@qq.com
+ShengfengLee, 389933523@qq.com
 
 ## License
 
